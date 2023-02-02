@@ -1,5 +1,5 @@
 <!-- ======= Footer ======= -->
-<footer id="footer" class="footer fixed-bottom">
+<footer id="footer" class="footer fixed-bottom" style="background-color: white">
     <div class="copyright">
       &copy; Copyright <strong><span>Joelll</span></strong>. All Rights Reserved
     </div>

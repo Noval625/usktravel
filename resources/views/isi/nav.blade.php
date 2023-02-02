@@ -20,8 +20,8 @@
                         </div><!-- /.navbar-header-->
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="smooth-menu"><a href="#home">home</a></li>
-                                <li class="smooth-menu"><a href="#">Order The Destinate</a></li>
+                                <li class="smooth-menu"><a href="{{ route('dashboard') }}">home</a></li>
+                                <li class="smooth-menu"><a href="{{ route('destiuse.index') }}">Order The Destinate</a></li>
                                 <li class="smooth-menu"><a href="#">Cek My Order</a></li>
                                 <li>
                                     <a href="{{ route('profile.edit') }}"  class="book-btn">Profile

@@ -20,10 +20,10 @@
                     <div class="single-footer-item">
                         <h2>link</h2>
                         <div class="single-footer-txt">
-                            <p><a href="#">home</a></p>
-                            <p><a href="#">destination</a></p>
-                            <p><a href="#">spacial packages</a></p>
-                            <p><a href="#">blog</a></p>
+                            <p><a href="#home">home</a></p>
+                            <p><a href="#gallery">destination</a></p>
+                            <p><a href="#pack">spacial packages</a></p>
+                            <p><a href="#blog">blog</a></p>
                         </div><!--/.single-footer-txt-->
                     </div><!--/.single-footer-item-->
 
@@ -33,11 +33,11 @@
                     <div class="single-footer-item">
                         <h2>popular destination</h2>
                         <div class="single-footer-txt">
-                            <p><a href="#">china</a></p>
-                            <p><a href="#">venezuela</a></p>
-                            <p><a href="#">brazil</a></p>
-                            <p><a href="#">australia</a></p>
-                            <p><a href="#">london</a></p>
+                            <p><a href="#gallery">china</a></p>
+                            <p><a href="#gallery">venezuela</a></p>
+                            <p><a href="#gallery">brazil</a></p>
+                            <p><a href="#gallery">australia</a></p>
+                            <p><a href="#gallery">london</a></p>
                         </div><!--/.single-footer-txt-->
                     </div><!--/.single-footer-item-->
                 </div><!--/.col-->

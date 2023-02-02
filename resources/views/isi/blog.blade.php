@@ -31,7 +31,7 @@
                                         <p>
                                             Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
                                         </p>
-                                        <a href="#">Read More</a>
+                                        <a href="#"></a>
                                     </div><!--/.blog-txt-->
                                 </div><!--/.caption-->
                             </div><!--/.thumbnail-->
@@ -56,7 +56,7 @@
                                         <p>
                                             Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
                                         </p>
-                                        <a href="#">Read More</a>
+                                        <a href="#"></a>
                                     </div><!--/.blog-txt-->
                                 </div><!--/.caption-->
                             </div><!--/.thumbnail-->
@@ -77,7 +77,7 @@
                                         <p>
                                             Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
                                         </p>
-                                        <a href="#">Read More</a>
+                                        <a href="#"></a>
                                     </div><!--/.blog-txt-->
                                 </div><!--/.caption-->
                             </div><!--/.thumbnail-->

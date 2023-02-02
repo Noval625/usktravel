@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\Admin\DestinationController;
+use App\Http\Controllers\TopdesController;
+use App\Http\Controllers\User\DestiuseController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\User\OrderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,18 +22,41 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
-    return view('admin.index');
-});
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::resource('/destiuse', DestiuseController::class);
+    Route::resource('order', OrderController::class);
+
 });
+
+Route::group(['middleware' =>['admin']], function(){
+    Route::get('/admin', function () {
+        return view('admin.index');
+    })->middleware(['auth', 'verified'])->name('admin');
+
+    Route::resource('destinate', DestinationController::class);
+
+    // Route::get('destinate', function () {
+    //     return view('admin.destinate.index');
+    // });
+
+});
+
+Route::group(['middleware' =>['user']], function(){
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->middleware(['auth', 'verified'])->name('dashboard');
+});
+
+
 
 require __DIR__.'/auth.php';

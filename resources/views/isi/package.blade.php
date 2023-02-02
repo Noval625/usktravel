@@ -40,11 +40,7 @@
                                     <span>2544 review</span>
                                 </p>
                             </div><!--/.packages-review-->
-                            <div class="about-btn">
-                                <button  class="about-view packages-btn">
-                                    book now
-                                </button>
-                            </div><!--/.about-btn-->
+                            <!--/.about-btn-->
                         </div><!--/.single-package-item-txt-->
                     </div><!--/.single-package-item-->
 
@@ -79,11 +75,6 @@
                                     <span>2544 review</span>
                                 </p>
                             </div><!--/.packages-review-->
-                            <div class="about-btn">
-                                <button  class="about-view packages-btn">
-                                    book now
-                                </button>
-                            </div><!--/.about-btn-->
                         </div><!--/.single-package-item-txt-->
                     </div><!--/.single-package-item-->
 
@@ -118,11 +109,6 @@
                                     <span>2544 review</span>
                                 </p>
                             </div><!--/.packages-review-->
-                            <div class="about-btn">
-                                <button  class="about-view packages-btn">
-                                    book now
-                                </button>
-                            </div><!--/.about-btn-->
                         </div><!--/.single-package-item-txt-->
                     </div><!--/.single-package-item-->
 
